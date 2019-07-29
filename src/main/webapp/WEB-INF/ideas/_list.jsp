@@ -3,7 +3,7 @@
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 
 <section class="container-fluid py-5">
-    <h2 class="h3 block-title text-center pt-4">Find some inspiration <span class='font-weight-normal'>and pick up an idea</span>
+    <h2 class="h3 block-title text-center pt-4">Find some inspiration <span class='font-weight-normal'>and pick up an idea.</span>
         <small>If you have an idea-sparking mind, welcome to the site to share your ideas and evaluate their viability with members of the community. Do not keep your ideas to yourself - ideas that spread win!<br>
             If you are in the lookout for exceptional ideas and want to pick up the one for your own project, join the community and vote for the best ideas. This is the best opportunity to test drive your idea. </small>
     </h2>
