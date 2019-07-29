@@ -4,7 +4,7 @@ services:
   - docker
 
 after_success:
-  - docker build -t eugene2238/project-backend:latest -t eugene2238/project-backend:0.0.4 -f ./docker/java/Dockerfile .
+  - docker build -t eugene2238/project-backend:latest -t eugene2238/project-backend:0.0.6 -f ./docker/java/Dockerfile .
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
-  - docker push eugene2238/project-backend:0.0.4
+  - docker push eugene2238/project-backend:0.0.6
   - docker push eugene2238/project-backend:latest
